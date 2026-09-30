@@ -1,0 +1,94 @@
+/* Dark theme background and layout */
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0f172a;
+    /* Dark slate */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Glassmorphism Card Style */
+.counter-card {
+    background: rgba(30, 41, 59, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 320px;
+}
+
+.counter-title {
+    color: #f8fafc;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Number display box */
+.counter-display {
+    background: #090d16;
+    border: 2px solid #334155;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.count-value {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #38bdf8;
+    /* Bright cyan accent */
+}
+
+/* Button Group */
+.button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn {
+    padding: 10px 18px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.btn-decrement {
+    background-color: #ef4444;
+    color: white;
+}
+
+.btn-decrement:hover {
+    background-color: #dc2626;
+}
+
+.btn-reset {
+    background-color: #475569;
+    color: white;
+}
+
+.btn-reset:hover {
+    background-color: #334155;
+}
+
+.btn-increment {
+    background-color: #22c55e;
+    color: white;
+}
+
+.btn-increment:hover {
+    background-color: #16a34a;
+}
